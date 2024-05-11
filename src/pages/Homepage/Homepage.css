@@ -1,0 +1,112 @@
+.homepage{
+    background-color: #252424;
+    min-height: 100vh;
+    color: white;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+
+}
+
+.container{
+    padding: 10px 10%;
+}
+.brand-logo{
+    color: var(--primary);
+
+}
+.topnav_items{
+    display: flex;
+    gap: 20px;
+}
+
+.topnav_items li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.topnav_items a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    color: white;
+}
+
+.topnav_items .btn{
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.carousel_content{
+    text-align: center;
+    width: 70%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 100%;
+    padding: 0 20%;
+    padding-top: 10%;
+}
+
+.btn{
+    background-color:chartreuse;
+    padding: 15px 40px;
+    font-weight: 800;
+    border-radius: 8px;
+}
+
+.carousel_video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+}
+
+.conatiner_flex{
+    display: flex;
+    gap: 20px;
+    padding: 10px 10%;
+}
+
+.card{
+    background-color: #4f4c4c;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    width: 33%;
+    min-height: 300px;
+}
+
+.card h3{
+    padding-bottom: 50px;
+}
+
+.disaster_container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    /* align-items: center ; */
+    padding: 3% 10%;
+}

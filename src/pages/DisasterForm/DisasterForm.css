@@ -1,0 +1,59 @@
+.disasterform{
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+    width: 90%;
+    padding: 20px 20px;
+
+}
+.disasterform h1{
+    text-align: center;
+    color: var(--primary);
+}
+
+.disasterform .col{
+    display: flex;
+    gap: 20px;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+.disasterform .col div{
+    width: 48%;
+}
+
+.disasterform input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid var(--primary);
+}
+
+select{
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid var(--primary);
+}
+
+textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid var(--primary);
+}
+
+.closeBtn{
+    background-color: var(--primary);
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+}
